@@ -41,12 +41,12 @@ const Hero = () => {
             position: [0, 0, 30]
           }}
         >
-          <Suspense fallback={<CanvasLoader />}>
-            {/* To hide controller */}
-            
-            
-            <PerspectiveCamera makeDefault position={[0, 0, 30]} />
+          {/* To hide controller */}
+          
+          
+          <PerspectiveCamera makeDefault position={[0, 0, 30]} />
 
+          <Suspense fallback={null}>
             <HeroCamera isMobile={isMobile}>
               <HackerRoom scale={sizes.deskScale} position={sizes.deskPosition} rotation={[0.1, Math.PI /2, 0]} />
             </HeroCamera>
