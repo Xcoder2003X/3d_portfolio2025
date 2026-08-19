@@ -58,12 +58,12 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: 'RGPD conform (Web Application)',
-    desc: 'A web Apllication that uses RAG system developped by python and prompt engeneering to generate full analysis , dashboard and a detailled report for RGPD conformity of a document.',
+    title: 'Multi-Agent AI Call Center',
+    desc: 'Designed and developed three specialized AI agents for sales, technical support, and pricing workflows.',
     subdesc:
-      'Built as a unique Web app with Reactjs , TailwindCss , Css , Java Spring boot , Python, Nginx ... , was deployed with docker . It was scalable , high quality designe and solved the problem as expected.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-    texture: '/textures/project/project1.mp4',
+      'Each agent uses distinct voice synthesis and manages a focused part of the customer journey, including lead qualification, technical assistance, and negotiation.',
+    href: '',
+    image: '/assets/projects/ai-call-center.jpg',
     logo: '/assets/logo1.png',
     logoStyle: {
       backgroundColor: '#2A1816',
@@ -74,38 +74,28 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/spring.png',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/docker.svg',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
+        name: 'Python',
         path: '/assets/python.png',
       },
       {
-        id: 5,
-        name: 'Framer Motion',
-        path: '/assets/nginx.png',
+        id: 2,
+        name: 'Generative AI',
+        path: '/assets/gpt.png',
+      },
+      {
+        id: 3,
+        name: 'React.js',
+        path: '/assets/react.svg',
       },
     ],
   },
   {
-    title: 'Pesonal Command Line',
-    desc: 'A command line that Execute user text or voice orders ( open some websites , rename files based on their content , shutting down machine ...) ',
+    title: 'Open Source Contributions',
+    desc: 'Regular contributions to international open-source projects through bug fixing, backend feature additions, and collaborative code reviews.',
     subdesc:
-      'this terminal makes life easier and resolve the probleme of time consumption from repetitive tasks.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-    texture: '/textures/project/project2.mp4',
+      'These contributions strengthen maintainability habits, teamwork, and the ability to understand existing codebases quickly.',
+    href: '',
+    image: '/assets/projects/open-source-contributions.jpg',
     logo: '/assets/logo2.png',
     logoStyle: {
       backgroundColor: '#13202F',
@@ -116,29 +106,28 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Git',
+        path: '/assets/github.svg',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/symfony.svg',
+        name: 'Backend',
+        path: '/assets/spring.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/csharp.svg',
+        name: 'Code Review',
+        path: '/assets/tick.svg',
       },
-      
     ],
   },
   {
-    title: '3d open door quiz Game ',
-    desc: 'A 3D quiz game where players navigate through doors by answering questions correctly. Built with Three.js and React Three Fiber, java spring boot for backend . it offers an immersive experience with engaging visuals and interactive gameplay.',
+    title: 'Smart Commerce Platform',
+    desc: 'Imaginary ecommerce application designed for modern online stores, with product discovery, cart management, checkout, and order tracking.',
     subdesc:
-      'The game is under development , for now the scene is ready , the player can answer quizes and increase it s score and unlock new characters and gain new badges and upgrade his level to be on top of dashboard .',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-    texture: '/textures/project/project3.mp4',
+      'The platform combines a React storefront with a Spring Boot API, secure authentication, inventory management, payment-ready checkout flows, and an admin dashboard for sales monitoring.',
+    href: '',
+    image: '/assets/projects/ecommerce-app.jpg',
     logo: '/assets/logo3.png',
     logoStyle: {
       backgroundColor: '#60f5a1',
@@ -152,59 +141,25 @@ export const myProjects = [
       {
         id: 1,
         name: 'React.js',
-        path: '/assets/3js.png',
+        path: '/assets/react.svg',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/fiber.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
+        name: 'Spring Boot',
         path: '/assets/spring.png',
       },
-      
-    ],
-  },
-  {
-    title: 'FootballGPT',
-    desc: 'Up to date chatGPT dataset specialized in football ( soccer ) , it can answer any question about football , give you latest news about your favourite team or player , give you statistics and predictions about matches ...',
-    subdesc:
-      ' using Datastax as a Vectoriel database where embeddings are stocked , using ollama2 localy to generate embeddings from text , scrpped more than 10 websites including wekipidia.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-    texture: '/textures/project/project4.mp4',
-    logo: '/assets/logo4.png',
-    logoStyle: {
-      backgroundColor: '#0E1F38',
-      border: '0.2px solid #0E2D58',
-      boxShadow: '0px 0px 60px 0px #2F67B64D',
-    },
-    spotlight: '/assets/spotlight4.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/ollama.png',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/typescript.png',
-      },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/gpt.png',
+        name: 'TailwindCSS',
+        path: '/assets/tailwindcss.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/nextjs.svg',
+        name: 'Docker',
+        path: '/assets/docker.svg',
       },
     ],
   },
-  
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
@@ -219,34 +174,36 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 };
 
 export const workExperiences = [
-  
   {
     id: 1,
-    name: 'Maison de l intelligence Artificielle',
-    pos: 'Internship',
-    duration: ' 2 months ',
-    title: "The Maison de l’Intelligence Artificielle (MIA) at the University Mohammed Premier in Oujda, inaugurated in July 2022, is the first African branch of the MIA Alpes-Maritimes (France) and serves as a pioneering hub for research, innovation, and collaboration in AI across the Oriental region.",
-    icon: new URL("https://www.mapnews.ma/fr/sites/default/files/styles/corps_article_image/public/Inteligence%20artificielle.jpg?itok=8NM9a8bM"),
+    name: 'Credit Agricole du Maroc - CAM / Al Filahi Cash',
+    pos: 'Software Engineering Intern',
+    duration: 'March - July 2026',
+    title:
+      'Led a mass data migration from Oracle to PostgreSQL 17 for a transactional scope of 3.85M lines using Ora2Pg, redesigned PL/SQL business logic into Spring Boot microservices, improved processing time by 35%, and integrated the persistence layer with Keycloak and Consul.',
+    icon: '/assets/spring.png',
     animation: 'victory',
     sound: '/textures/project/victory.mp3',
   },
   {
     id: 2,
-    name: 'Oracle',
-    pos: 'oracle Certification',
-    duration: '1 mois',
-    title: " The OCI Generative AI Professional certification equips developers and AI practitioners with foundational knowledge of Large Language Models (LLMs), OCI’s Generative AI Service architecture, prompt engineering, fine-tuning, and building applications like Retrieval-Augmented Generation (RAG) systems or chatbots via OCI’s AI clusters and LangChain integration",
-    icon: '/assets/oracle1.jpg',
+    name: 'Client Projects',
+    pos: 'Software Engineering Intern',
+    duration: 'October - November 2025',
+    title:
+      'Designed and implemented custom software modules for real clients in an Agile environment, modeled business logic, integrated REST APIs, and optimized code for maintainability and responsive application behavior.',
+    icon: '/assets/react.svg',
     animation: 'clapping',
     sound: '/textures/project/clapping.mp3',
   },
   {
     id: 3,
-    name: 'Genie Informatique',
-    pos: 'Student at Ensao',
-    duration: '2022 - 2025',
-    title: "The Computer Engineering program at ENSAO (École Nationale des Sciences Appliquées d'Oujda) equips students with a strong foundation in computing, information systems, networks, and emerging ICT technologies, enabling them to design, develop, and integrate comprehensive software solutions.",
-    icon: '/assets/ensao.png',
+    name: 'AIConform - SaaS for the European Market',
+    pos: 'Software Developer',
+    duration: 'March - June 2025',
+    title:
+      'Architected a scalable compliance assessment SaaS with Spring Boot and React, improved backend response time by 25%, implemented 15+ secure REST endpoints with Spring Security and JWT, built a RAG engine for document analysis, and deployed the multi-service app with Docker and Nginx.',
+    icon: '/assets/logo1.png',
     animation: 'salute',
     sound: '/textures/project/salute.mp3',
   },
